@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Merriweather:wght@300;400;700&display=swap');
+
+.site-navbar {
+    background-color: #262526;
+    font-family: 'Merriweather' , serif;
+    box-shadow: 1px 1px 3px rgba(33, 21, 21, 0.5);
+    z-index: 99;
+}
+
+.site-navbar .nav-link{
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+}
+
+.site-navbar .nav-link:hover {
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-red);
+
+}
+
+.banner {
+    background:linear-gradient(rgba(80, 7, 7, 0.774),rgba(0, 0, 0, 0.7)), url(./img/Banner2.jpg) center center fixed no-repeat;
+    background-size: cover;
+    height: 800px
+}
+
+.title {
+    color: #ffffff;
+}
+
+.summary {
+    color: #ffffff;
+}
+.avilable {
+    background:linear-gradient(rgba(0, 0, 0, 0.511),rgba(0, 0, 0, 0.664)), url(./img/garage2.jpeg) center center fixed no-repeat;
+    background-size: cover;
+    height: 800px
+}
+
+.btn-order {
+    color: var(--bs-red);
+    border-color: var(--bs-red);
+    transition: 0.5s;
+}
+
+.btn-order:hover,
+.btn-order:active {
+    color:rgb(255, 255, 255);
+    background-color: var(--bs-red);
+}
+
+.horaires {
+    background:linear-gradient(rgba(80, 7, 7, 0.774),rgba(0, 0, 0, 0.797)), url(./img/Méchanique.webp) center center fixed no-repeat;
+    background-size: cover;
+    height: 800px
+}
+
+.container-1 {
+    background:linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.57));
+}
+.label-color{
+    color: #ffffff;
+}
+.container-2{
+    background:linear-gradient(rgba(35, 31, 31, 0.774),rgba(0, 0, 0, 0.332)), url(./img/garagiste.jpg) center center fixed no-repeat;
+    background-size: cover;
+    height: 800px
+}
+
+.container-3{
+    background:linear-gradient(rgba(35, 31, 31, 0.774),rgba(0, 0, 0, 0.332)), url(./img/garagiste2.webp) center center fixed no-repeat;
+    background-size: cover;
+    height: 800px
+}
+
+.text-h,
+.date {
+    color: #ffffff;
+}
