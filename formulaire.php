@@ -204,6 +204,38 @@ require 'config/function.php';
     </div>
   </section>
 
+  <section class="container-1 min-vh-100 d-flex justify-content-center align-items-center" id="down">
+    <form action="formulaire-client.php" method="post">
+      <div class="mb-3">
+        <label class="title" for="Name">Noms</label>
+        <input type="text" name="name" class="form-control">
+      </div>
+      <div class="mb-3">
+        <label class="title" for="mail">Email</label>
+        <input type="email" name="email" class="form-control">
+      </div>
+      <div class="mb-3">
+        <label class="title" for="phone">Téléphone</label>
+        <input type="text" name="phone" class="form-control">
+      </div>
+      <div class="mb-3">
+        <label class="title" for="pass">Mot de passe</label>
+        <input type="password" name="pass" class="form-control">
+      </div>
+      <div class="mb-3">
+        <label class="title" for="role">Role</label>
+        <select name="role" class="form-control">
+          <option value="">Séléction de Role</option>
+          <option value="reparation">Réparation</option>
+          <option value="achat">Achat</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <button type="submit" name="saveUser" class="btn btn-danger">Sauvegarder</button>
+      </div>
+    </form>
+  </section>
+
   <footer id="down">
     <div class="py-5 bg-light">
       <div class="container">
